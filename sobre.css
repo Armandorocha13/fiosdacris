@@ -1,0 +1,306 @@
+/* Configuração básica do corpo (body) */
+body {
+    background: linear-gradient(90deg, rgba(182, 129, 251, 1) 1%, rgba(143, 39, 212, 1) 24%, rgba(232, 176, 237, 0.7457107843137255) 66%, rgba(174, 153, 245, 1) 100%);
+    background-size: 500% 100%;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 90px;
+    animation: body 5s infinite alternate;
+}
+
+/* Animação para o background do body */
+@keyframes body {
+    0% {
+        background-position-x: 5%;
+    }
+    100% {
+        background-position-x: 100%;
+    }
+}
+
+/* Barra de navegação */
+
+body{
+    background: linear-gradient(90deg, rgba(182,129,251,1) 1%, rgba(143,39,212,1) 
+    24%, rgba(232,176,237,0.7457107843137255)
+     66%, rgba(174,153,245,1) 100%);        background-size: 500% 100%;
+        color: #ffffff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        max-width: 1200px;
+        max-height: 1200px;
+        margin: 0 auto;
+        padding: 15 px;
+        padding-bottom: 90px;
+        animation:body 5s infinite alternate;
+    }
+    
+    @keyframes body{
+        0%{
+            background-position-x: 5% ;
+        }
+        100%{
+            background-position: 100%;
+        }
+    }
+
+#logo-incio{
+    width: 10px;
+    height: 10px;
+    display: flex;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 10px;
+    border: solid #fff;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+span{
+    color: rgb(139, 8, 63);
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+
+}
+
+
+
+li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+.bn29 {
+  border: none;
+  padding: 0.8em 2.5em;
+  outline: none;
+  color: white;
+  font-style: 1.2em;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  background: none;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
+}
+
+.bn29:before,
+.bn29:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 10em;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  width: 105%;
+  height: 105%;
+  content: "";
+  z-index: -2;
+  background-size: 400% 400%;
+  background: linear-gradient(
+    60deg,
+    #f79533,
+    #f37055,
+    #ef4e7b,
+    #a166ab,
+    #5073b8,
+    #1098ad,
+    #07b39b,
+    #6fba82
+  );
+}
+
+.bn29:before {
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  -webkit-animation: pulse 10s infinite ease;
+  animation: pulse 10s infinite ease;
+}
+
+.bn29:after {
+  -webkit-filter: blur(0.3px);
+  filter: blur(0.3px);
+}
+
+.bn29:hover:before {
+  width: 115%;
+  height: 115%;
+}
+}
+
+.bn632-hover {
+    width: 90px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn24 {
+    background-image: linear-gradient(
+        to right,
+        #a59ee5,
+        #dda4e5,
+        #a3a1ff,
+        #c29d9d
+      );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+
+/* Estilo para o conteúdo principal do site */
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+/* Estilo geral para links */
+a {
+    color: #f8f5ff;
+}
+
+/* Efeito de hover para links */
+a:hover {
+    color: rgb(193, 29, 97);
+    transition: 0.3s;
+}
+
+/* Estilo para botão de criar conta */
+#Criar-conta-button {
+    border: 2px solid rgb(193, 29, 97);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Estilo para container sobre */
+.sobre-container {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* Estilo para imagens dentro do container sobre */
+.sobre-container img {
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 0px;
+    border-radius: 440px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover nas imagens do container sobre */
+.sobre-container img:hover {
+    box-shadow: 0 0 50px 5px rgba(255, 255, 255, 0.9), 0 0 60px 40px rgba(255, 255, 255, 0.6);
+}
+
+/* Estilo para parágrafos dentro do container sobre */
+.sobre-container p {
+
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+/* Estilo para o container de itens */
+.item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo para títulos dentro do container de itens */
+.item-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    border-bottom: 2px solid #fff;
+}
+
+/* Estilo para parágrafos dentro do container de itens */
+.item-container p {
+    padding-top: 25px;
+    font-style: italic;
+}
+
+/* Media Queries para diferentes tamanhos de tela */
+@media (min-width: 768px) {
+    header {
+        display: flex ;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .sobre-container p {
+        max-width: 50%;
+        padding: 0 20px;
+    }
+
+    main {
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    aside {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 1200px) {
+    header {
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+}
